@@ -1,73 +1,127 @@
-# Welcome to your Lovable project
+# 😂 Meme Generator Website
 
-## Project info
+The **Meme Generator Website** is an interactive web application that allows users to **create, customize, and preview memes in real time**. Built using **HTML, CSS, and JavaScript**, the app lets users overlay text on images, adjust positioning, and instantly generate memes for social media or personal use.
 
-**URL**: https://lovable.dev/projects/1354274e-c216-4ffd-9504-acfd788061d3
+This project demonstrates strong skills in **DOM manipulation, event handling, frontend logic, and UI/UX design**.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🎯 Project Objectives
 
-**Use Lovable**
+* Enable users to create memes dynamically
+* Provide a responsive and user-friendly interface
+* Demonstrate real-time text overlay on images
+* Apply frontend logic for customization and interactivity
+* Showcase frontend development best practices
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1354274e-c216-4ffd-9504-acfd788061d3) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Key Features
 
-**Use your preferred IDE**
+### 🖼️ Image Selection
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* Choose from a library of preloaded meme images
+* Option to upload custom images
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 📝 Text Customization
 
-Follow these steps:
+* Add top and bottom text
+* Adjust font size, color, and position
+* Real-time preview of text on the image
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### ⚡ Real-Time Meme Generation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* Instant updates as users type or adjust text
+* Smooth rendering without page reloads
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 🎨 User Interface
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+* Responsive design for desktop and mobile
+* Clean and intuitive layout
+* Drag-and-drop positioning of text
+* Hover and interaction effects for buttons
+
+### 💾 Download & Share
+
+* Download generated memes as image files
+* Ready for sharing on social media
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* **HTML5** – Structure
+* **CSS3** – Styling and responsive layout
+* **JavaScript (ES6+)** – DOM manipulation and interactivity
+
+### Tools & Libraries
+
+* VS Code
+* Git & GitHub
+
+---
+
+## 🧠 How It Works (High-Level Flow)
+
+1. User selects an image or uploads a custom one
+2. User adds top/bottom text and customizes style
+3. JavaScript dynamically overlays text onto the image
+4. Real-time preview updates as the user types
+5. User can download the final meme image
+
+
+---
+
+## ⚙️ How to Run Locally
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/meme-generator.git
 ```
 
-**Edit a file directly in GitHub**
+### Step 2: Navigate to the Project Folder
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+cd meme-generator
+```
 
-**Use GitHub Codespaces**
+### Step 3: Open the Application
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* Double-click `index.html`
+  **OR**
+* Use **Live Server** in VS Code
 
-## What technologies are used for this project?
+✅ No installations required.
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🧪 What I Learned
 
-## How can I deploy this project?
+* DOM manipulation and event handling
+* Dynamic text overlay on images
+* Responsive UI design principles
+* Real-time updates and rendering
+* Handling user input and file uploads
 
-Simply open [Lovable](https://lovable.dev/projects/1354274e-c216-4ffd-9504-acfd788061d3) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🧩 Challenges Faced
 
-Yes, you can!
+* Positioning text dynamically on various image sizes
+* Ensuring responsive layout across devices
+* Managing user-uploaded images safely
+* Generating downloadable image files with JavaScript
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🌱 Future Enhancements
+
+* Add more font styles and stickers
+* Allow multi-line text with auto-scaling
+* Integrate meme templates from an online API
+* Add sharing directly to social media platforms
+* Dark/light mode toggle for the app
+
