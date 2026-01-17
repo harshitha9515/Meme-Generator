@@ -1,4 +1,4 @@
-# 😂 Meme Generator Website
+# Meme Generator Website
 
 The **Meme Generator Website** is an interactive web application that allows users to **create, customize, and preview memes in real time**. Built using **HTML, CSS, and JavaScript**, the app lets users overlay text on images, adjust positioning, and instantly generate memes for social media or personal use.
 
